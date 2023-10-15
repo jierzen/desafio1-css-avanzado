@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+
+.mainSectionFlex {
+    display: flex;
+}
+
+/* header{
+    margin: 2% 0 10% 2%;
+    list-style-type: none;
+} */
+
+/* header nav ul{
+    list-style-type: none;
+} */
+
+.contactos {
+    width: 30%;
+    background-color: #FFF;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.logo {
+    width: 70%;
+    height: auto;
+    background-color: #E8EBE4;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img img {
+    padding-top: 15%;
+    width: 30%;
+    height: auto;
+}
+
+/* CONTACTOS */
+
+.main_contact_logo {
+    display: flex;
+    border: solid 1px rgb(214, 209, 209);
+}
+
+.main_contact_logo i {
+    margin: 8% 0 2% 50%;
+}
+.main_contact_logo img {
+    margin: 5%;
+    width: 10%;
+    border-radius: 50%;
+}
+
+.contact_logo{
+    display: flex;
+    border: solid 1px rgb(214, 209, 209);
+    
+}
+
+.contact_logo img{
+    margin: 5%;
+    width: 15%;
+    border-radius: 50%;
+}
+
+.nombre {
+    font-size: 14px;
+    margin: 6% 0 0 0;
+    
+}
+
+.estado {
+    color: #b5b9af;
+    margin: 10% 0 0 -11%;
+    font-size: 13px;
+    
+}
+
+
+
+.botonDiv{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    background-color: #af9ed5;
+    border: none;
+    padding: 3% 20% 3% 20%;
+    color: white;
+}
+
+button:hover {
+    background-color: #8577a3;
+    cursor:pointer;
+}
+
+i:hover{
+    cursor:pointer;
+}
+
+button:active {
+    background-color: #62547f;
+    box-shadow: 0 1px #666;
+  }
+
+.botonNuevoChat{
+    margin: 8% 0 8% 0
+}
+
+.parrafos-logo{
+    text-align: center;
+}
+
+.nombre_estado {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+    margin-top: 7%;
+}
+
+.nombre_estado .nombre{
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+    
+}
+
+.nombre_estado .estado{
+    color: #323232;
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+}
